@@ -1,0 +1,17 @@
+Turn the folder you want to push to GitHub into a git repository with the command git init.
+Create a new empty remote repository with the same name as your folder in your Github account.
+Copy the SSH repository address, e.g., git@github.com:<your-github-name>/your-folder.git, and add it as the remote repository “origin” to our local your-folder repository (a repository can be linked to multiple remote repositories, so we need to give them nicknames to distinguish them; “origin” is the standard name for the main remote repository):
+git remote add origin <ssh link>
+copy
+Check if the remote repository was successfully linked with the command:
+git remote -v
+copy
+A “fetch” and a “push” address should be printed to the terminal.
+
+For every challenge in your folder repository:
+
+Use git add <challenge folder name> to stage the changes from this challenge.
+OR: use git add . to add everything in your folder at once.
+Commit these challenge files with git commit -m "<message>" and add a meaningful message, e.g., “add solution for html and the web - personal website”.
+
+Use git push to push the new commit to your remote repository on GitHub. The first time you need to specify where you want to push to with the command git push -u origin main.
