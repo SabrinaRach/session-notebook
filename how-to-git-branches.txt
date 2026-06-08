@@ -12,6 +12,7 @@ Bei Änderungen am Ordner/Datei
 1. git status zeigt den Status der Datei an, z.B., dass es Änderungen gibt, die noch nicht commited wurden
 2. git add <feature-branch-name>, git commit -m, git push origin <feature-branch-name>
 3. Pull request auf GitHub erstellen, prüfen und auf Main mergen
+    Hinweis: Nicht nach jedem Commit muss ein PullRequest erstellt werden
 
 Nach dem Mergen auf Main, ist der Main auf dem localen Computer noch auf dem alten Stand
 git pull origin main
