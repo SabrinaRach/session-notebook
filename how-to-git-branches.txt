@@ -3,6 +3,7 @@
 3. git add <feature-branch-name> hebt Ordner/Datei auf Stage
 4. git commit -m <Nachricht, was gemacht wurde>
 5. git push -u origin <feature-branch-name> pusht es auf GitHub
+   Hinweis: Beim erstmaligen Push das -u verwenden, danach reicht ohne
 6. in GitHub öffnet sich ein kleiner Hinweis "Compare and pull request", dort klicken, um PR zu starten
 7. ausfüllen und Link mit der Gruppe teilen, um Hinweise/Korrekturen zu erhalten
 8. Wenn alles passt: Mergen auf Main
