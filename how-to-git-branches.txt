@@ -1,4 +1,4 @@
-1. um einen feature branch zu erstellen: git switch -c <feature-branche-name>
+1. um einen feature branch zu erstellen und in diesen zu wechseln: git switch -c <feature-branche-name>
 2. neuen Ordner oder Datei erstestellen und ausfüllen
 3. git add <feature-branch-name> hebt Ordner/Datei auf Stage
 4. git commit -m <Nachricht, was gemacht wurde>
@@ -9,8 +9,9 @@
 8. Wenn alles passt: Mergen auf Main
 
 Bei Änderungen am Ordner/Datei
-    1. git status zeigt den Status der Datei an, z.B., dass es Änderungen gibt, die noch nicht commited wurden
+1. git status zeigt den Status der Datei an, z.B., dass es Änderungen gibt, die noch nicht commited wurden
 2. git add <feature-branch-name>, git commit -m, git push origin <feature-branch-name>
+3. Pull request auf GitHub erstellen, prüfen und auf Main mergen
 
 Nach dem Mergen auf Main, ist der Main auf dem localen Computer noch auf dem alten Stand
 git pull origin main
