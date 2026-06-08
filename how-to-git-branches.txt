@@ -7,3 +7,7 @@
 6. in GitHub öffnet sich ein kleiner Hinweis "Compare and pull request", dort klicken, um PR zu starten
 7. ausfüllen und Link mit der Gruppe teilen, um Hinweise/Korrekturen zu erhalten
 8. Wenn alles passt: Mergen auf Main
+
+Bei Änderungen am Ordner/Datei
+    1. git status zeigt den Status der Datei an, z.B., dass es Änderungen gibt, die noch nicht commited wurden
+2. git add <feature-branch-name>, git commit -m, git push origin <feature-branch-name>
